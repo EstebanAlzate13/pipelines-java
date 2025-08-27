@@ -7,9 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
-  demands:  
-    - agent.name -equals $(agent.name)  
+  vmImage: 'windows-latest'    
 
 steps:
 - task: Maven@3
